@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  padding: 80px;
+  width: 600px;
+  background: linear-gradient(90deg, #ffb0e1, #b0dbff);
+}
+
+#logo {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top : 10px;
+  left : 20px;
+}
+
+#box {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 65%;
+  border: 1px solid #aacdff;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 280%;
+}
+
+.login-form {
+  text-align: center;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login{
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: large;
+  margin-bottom: 7%;
+  width: 30%;
+}
+
+.login:focus {
+  outline: none;
+}
+
+#submit {
+  font-size: large;
+  font-weight: 1000;
+  color: white;
+  margin-top: 10%;
+  width: 17%;
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  background-image: linear-gradient(to right, #7286f5, #2f2d91, #f35ce6, #ffc7f8);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  cursor: pointer;
+  background-size: 300% 100%;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#submit:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.find {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: medium;
+}
+
+#findid {
+  position: absolute;
+  margin-left: 1.5%;
+  margin-top: 14%;
+  cursor: pointer;
+}
+
+#findpw {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 14%;
+  cursor: pointer;
+}
+
+#sign_up_btn {
+  text-decoration: none;
+  color: rgb(0, 18, 177);
+  position: fixed;
+  top: 89%;
+  left: 46.6%;
+}

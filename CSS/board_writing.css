@@ -1,0 +1,234 @@
+.head {
+  line-height: 100px;
+  font-size: 320%;
+  font-weight: 700;
+  border: 4px solid rgba(110, 83, 61, 0.637);
+  text-align: center;
+  color: rgba(110, 83, 61, 0.637);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
+select {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  margin-top: 2%;
+  margin-left: 5%;
+  text-align: center;
+  border: 2px solid rgba(168, 74, 15, 0.534);
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+.header {
+  margin-top: 100%;
+  margin-left: 0%;
+  width: 90%;
+  height: 27px;
+  padding: 2px 6px 2px 6px;
+  font-size: 14px;
+  border: 2px solid rgba(110, 51, 14, 0.534);
+  cursor: pointer;
+  background-color: white;
+  text-align: center;
+}
+
+form {
+  max-width: 90%;
+  margin: 8% 8% 8% 7%;
+  position: relative;
+}
+
+.select_contents {
+  list-style-type: none;
+  position: absolute;
+  width: 88.5%;
+  top: 96%;
+  border: 1px solid rgba(110, 51, 14, 0.534);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  display: none;
+}
+
+.select_contents li {
+  width: 100%;
+  text-align: center;
+} 
+
+.select_contents button {
+  margin: 0;
+  width: 90%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.select_contents li button:hover,
+.select_contents li button:focus {
+  background-color: rgba(223, 170, 126, 0.637);
+}
+
+.title {
+  color: rgb(70, 28, 2);
+  position: absolute;
+  font-size: 16px;
+  margin-top: 30px;
+  left: 20.5%;
+}
+
+.titleBox {
+  width: 55.4%;
+  position: absolute;
+  font-size: 15px;
+  margin-top: 28px;
+  margin-left: 12.6%;
+  height: 25px;
+  border: 2px solid rgba(182, 139, 103, 0.637);
+}
+
+.titleBox:focus {
+  outline: none;
+}
+
+.contents {
+  color: rgb(70, 28, 2);
+  position: absolute;
+  font-size: 16px;
+  margin-top: 300px;
+  left: 20.5%;
+}
+
+textarea {
+  position: absolute;
+  font-size: 15px;
+  margin-left: 12.6%;
+  margin-top: 78px;
+  border: 2px solid rgba(182, 139, 103, 0.637);
+  width: 55.4%;
+  height: 78%;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.upload-name {
+  position: absolute;
+  height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  border: 2px solid rgba(182, 139, 103, 0.637);
+  width: 49%;
+  color: #999999;
+  height: 30px;
+  margin-top: 34.4%;
+  margin-left: 29.3%;
+}
+
+.upload-name:focus {
+  outline: none;
+}
+
+.filebox label {
+  font-size: small;
+  display: inline-block;
+  padding: 1px 10px;
+  color: rgba(37, 17, 0, 0.637);
+  text-align: center;
+  background-color: blanchedalmond;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 34.5%;
+  margin-left: 23.5%;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}
+
+.submit {
+  font-size: 90%;
+  position: absolute;
+  top: 105%;
+  left: 45%;
+  width: 70px;
+  height: 40px;
+  background-color: rgb(255, 250, 240);
+  border-color: rgba(143, 108, 79, 0.637);
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.backP {
+  font-size: 90%;
+  position: absolute;
+  top: 105%;
+  left: 51.5%;
+  width: 70px;
+  height: 40px;
+  background-color: rgb(255, 250, 240);
+  border-color: rgba(143, 108, 79, 0.637);
+  color: rgba(0, 0, 0, 0.637);
+}
+
+.button--ujarak {
+  -webkit-transition: border-color 0.4s, color 0.4s;
+  transition: border-color 0.4s, color 0.4s;
+}
+
+.button--ujarak::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(110, 83, 61, 0.637);
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button--ujarak.button--round-s::before {
+  border-radius: 2px;
+}
+
+.button--ujarak,
+.button--ujarak::before {
+  -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.button--ujarak:hover {
+  cursor: pointer;
+  color: #fff;
+  border-color: rgba(223, 170, 126, 0.637);
+  background-color: rgba(172, 130, 95, 0.637);
+}
+
+.button--ujarak:hover::before {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}

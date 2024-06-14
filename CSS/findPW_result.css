@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  color: rgb(0, 0, 131);
+}
+
+#infoPW {
+  background-color: rgb(0, 0, 131);
+  width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+p {
+  font-size: small;
+  color: white;
+  text-align: center;
+}
+
+.find_select input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 120%;
+  margin-left: 21%;
+  font-size: medium;
+  width: 247px;
+}
+
+.find_select input:focus {
+  outline: none;
+}
+
+.createPW1 {
+  margin-top: 25%;
+}
+
+.createPW2 {
+  margin-top: 10%;
+}
+
+#createPW {
+  font-size: large;
+  font-weight: 1000;
+  color: white;
+  background-color: rgb(0, 0, 131);
+  border-radius: 50px;
+  width: 40%;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5%;
+  position: relative;
+  margin-top: 20%;
+  left: 24%;
+}
